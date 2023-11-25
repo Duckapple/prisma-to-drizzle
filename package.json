@@ -1,0 +1,16 @@
+{
+  "name": "prisma-to-drizzle",
+  "module": "prisma-to-drizzle.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.0",
+    "postgres": "^3.4.3"
+  }
+}
